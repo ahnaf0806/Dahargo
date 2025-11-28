@@ -6,6 +6,7 @@
         <title>Dahargo</title>
 
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
     </head>
     <body class="bg-primary"></body>
 </html>
